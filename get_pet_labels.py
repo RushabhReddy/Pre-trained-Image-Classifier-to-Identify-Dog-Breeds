@@ -54,7 +54,7 @@ def get_pet_labels(image_dir):
         # Skip hidden files (dot files)
         if filename.startswith('.'):
             # Print a message indicating that the hidden file is skipped
-            print(f"Skipped hidden file: {filename}")
+            #print(f"Skipped hidden file: {filename}")
             continue
 
         # Convert the filename to lowercase and split by underscores
